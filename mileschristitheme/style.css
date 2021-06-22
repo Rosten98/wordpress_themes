@@ -1,0 +1,671 @@
+/* 
+  Theme name: Miles Christi MX
+  Version: 1.0
+  Description: Miles Christi MX tema personalizado
+  Author: Gerardo Rodriguez
+  Author URI: twitter.com/thereactivedev
+  License:  GNU General Public License v2 or later:
+  License URI: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/* GENERALS */
+html {
+	scroll-behavior: smooth;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+html, 
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.mc-container {
+  margin: 0 auto;
+  /* width: 95%; */
+  max-width: 1240px;
+  padding: 0 1em;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  padding: 16px;
+  transition: background-color .2s ease;
+  cursor: pointer;
+}
+
+.button {
+  border: none;
+  border-radius: 3px;
+  padding: 16px;
+  transition: background-color .2s ease;
+  cursor: pointer;
+}
+/* h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;;
+} */
+
+h2, h3, h4 {
+  margin: 22px 0;
+}
+
+.bg-green, .bg-orange, .bg-brown, .bg-darkblue {
+  color: white;
+  border-radius: 20px;
+  padding: 5px 0;
+}
+
+.bg-green {
+  background-color: #8A9F98;
+}
+
+.bg-orange {
+  background-color: #9F5E48;
+}
+
+.bg-brown {
+  background-color: #a27933;
+}
+
+.bg-darkblue {
+  background-color: #3D5C71;
+}
+
+/* NAVIGATION */
+.box-helper {
+  height: 100px;
+  background-color: rgb(15, 15, 15);
+}
+
+.nav {
+  background-color: rgb(15, 15, 15);
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.nav .inner-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav-icons {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.nav-icons #search {
+  font-size: 23px;
+  /* color: #747474;  */
+  transform: rotate(90deg) !important;
+}
+
+.iconify {
+  margin-left: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.iconify.cross {
+  position: fixed;
+  top: 35px;
+  right: 15px;
+  font-size: 30px;
+  color: white;
+  z-index: 2;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+
+nav > div .logo-link {
+  order: -1;
+}
+
+nav > div .menu-container {
+  order: 0;
+}
+
+nav > div .nav-icons {
+  order: 1;
+}
+
+.menu-desktop {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(15, 15, 15);
+  top:0;
+  left: 0;
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in-out;
+}
+
+
+.menu li {
+  margin-bottom: 40px;
+  font-size: 1.4em;
+}
+
+.menu li a button{
+  background-color: #3D5C71;
+  padding: 15px 35px;
+  border-radius: 3px;
+  color: white;
+  font-size: .7em;
+}
+
+.menu li a button:hover{
+  background-color: #1c3343;
+}
+
+.header-quote {
+  position: relative;
+}
+
+.quote {
+  position: absolute;
+  width: 85%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+
+.quote span {
+  font-size: .6em;
+  font-weight: 600;
+}
+
+/* What's MC */
+.what-is-mc {
+  position: relative;
+  text-align: center;
+}
+
+.what-is-mc::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-top: 38px solid #3D5C71;
+  border-right: 1000px solid transparent;
+}
+
+.what-is-mc::before{
+  content: '';
+  position: absolute;
+  /* z-index: -1; */
+  top: -46px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid #3D5C71;
+  border-right: 200px solid transparent;
+}
+
+.bg-green, .bg-orange, .bg-brown, .bg-darkblue {
+  font-size: 1.1em;
+}
+
+.what-is-mc p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+  padding: 20px 0;
+}
+
+.what-is-mc p.bg-green {
+  padding: 20px;
+  /* margin-bottom: 10px; */
+  font-size: 1.2em;
+  border-radius: 60px;
+  line-height: 1.6em;
+}
+
+.events {
+  margin: 22px 0;
+}
+
+.events li {
+  margin-bottom: 14px;
+}
+
+/* Retreats */
+.retreats {
+  position: relative;
+  margin: 20px 0;
+}
+
+.retreats h3{
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+  margin-bottom: 28px;
+}
+
+.retreats button {
+  display: block;
+  border: none;
+  border-radius: 3px;
+  background-color: #1c3343;
+  color: white;
+  padding: 16px;
+  font-size: 1.1em;
+  transition: .2s;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.retreats button:hover {
+  background-color: #0f1e29;
+  cursor: pointer;
+}
+
+.retreats img {
+  height: 100%;
+}
+
+.retreats-text {
+  position: absolute;
+  /* background-color: rgba(0, 0, 0, 0.5);
+  height: 100%; */
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.retreats-filter {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/* Other resources */
+
+.resource {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+  padding: 0 1em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.resource .iconify {
+  margin: 0;
+  font-size: 5em;
+  margin-bottom: 22px;
+}
+
+.resource h3 {
+  font-weight: 200;
+}
+
+.resource p {
+  margin-bottom: 22px;
+  font-size: .8em;
+  color: rgb(237, 237, 237);
+}
+
+.resource button {
+  padding: 8px 16px;
+  color: white;
+  font-size: .8em;
+  margin-bottom: 22px;
+}
+
+.bg-orange.resource button {
+  background-color: #874833;
+}
+
+.bg-orange.resource button:hover {
+  background-color: #6f3623;
+}
+
+.bg-darkblue.resource button {
+  background-color: #1d3b4f;
+}
+
+.bg-darkblue.resource button:hover {
+  background-color: #122d3f;
+}
+
+.bg-green.resource button {
+  background-color: #5e726c;
+}
+
+.bg-green.resource button:hover {
+  background-color: #495e57;
+}
+
+/* Upcoming events */
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f6fa;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 3px;
+}
+
+.card-left {
+  width: 50%;
+}
+
+.card p {
+  font-size: .8em;
+  font-weight: 600;
+  margin-top: 10px;
+  border-radius: 20px;
+  color: #5f6e77;
+}
+
+.card h4 {
+  margin: 0;
+  color: #30383d;
+}
+
+.card button {
+  padding: 10px 16px;
+  background-color: #647a88;
+  color: white;
+}
+
+.card button:hover {
+  background-color: #52646f;
+}
+
+/* Instagram */
+.instagram {
+  text-align: center;
+}
+
+.instagram .button {
+  display: flex;
+  background-color: #1c3343;
+  color: white;
+  width: 250px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+}
+
+.instagram .button:hover {
+  background-color: #0f1e29;
+  cursor: pointer;
+}
+
+#curator-feed-default-feed-layout {
+  z-index: 0;
+  margin-top: 30px;
+}
+
+/* Footer */
+footer {
+  background-color: #1d3b4f;
+}
+
+.footer .inner-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+  line-height: 2em;
+}
+
+footer .inner-footer ul.contact li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .inner-footer ul.social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+footer .inner-footer .iconify {
+  margin: 0;
+}
+
+.contact li .iconify {
+  font-size: 30px; 
+  background-color: #172833; 
+  padding: 7px; 
+  color:white; 
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.social .iconify {
+  font-size: 40px; 
+  background-color: #172833; 
+  padding: 10px; 
+  color:white; 
+  border-radius: 5px;
+}
+
+footer .inner-footer section {
+  padding-bottom: 1.2em;
+}
+
+footer .inner-footer a {
+  color: #9daab3;
+}
+
+footer .inner-footer a:hover {
+  color: #d2dae0;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .quote {
+    font-size: 4em;
+  }
+  .quote span {
+    font-size: 24px;
+  }
+  .what-is-mc h2 {
+    font-size: 3em;
+  }
+  .what-is-mc .videos {
+    display: flex;
+  }
+  .what-is-mc .videos iframe:nth-child(1){
+    margin-right: 10px;
+  }
+  .what-is-mc .videos iframe:nth-child(2){
+    margin-left: 10px;
+  }
+  .events {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .events li {
+    flex: 1;
+    margin: 0 20px;
+    padding: 10px;
+  }
+  .retreats h3 {
+    font-size: 3em;
+    /* font-weight: 400; */
+  }
+  .upcoming h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+  .upcoming > div {
+    display: flex;
+  }
+
+  .upcoming > div .card:nth-child(1) {
+    flex:1;
+    margin-right: 10px;
+  }
+
+  .upcoming > div .card:nth-child(2) {
+    flex:1;
+    margin-left: 10px;
+  }
+  .instagram h4 {
+    font-size: 1.3em;
+  }
+
+  .footer .inner-footer {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .footer .inner-footer section {
+    flex: 1;
+  }
+
+  .footer .inner-footer section:nth-child(3) {
+    order: -1;
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .nav .inner-nav{
+    justify-content: flex-end;
+  }
+
+  .iconify.cross {
+    display: none;
+  }
+
+  .menu-desktop {
+    background-color: rgb(15, 15, 15);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-desktop li {
+    margin-bottom: 40px;
+    font-size: 1.4em;
+  }
+
+  .menu-desktop li a button{
+    background-color: #3D5C71;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: white;
+    font-size: .9em;
+  }
+
+  .menu-desktop li a button:hover{
+    background-color: #1c3343;
+  }
+
+  .menu-desktop li {
+    margin-bottom: 0;
+    font-size: 1.2em;
+    margin-left: 30px;
+  }
+
+  .nav-icons #ham-menu {
+    display: none;
+  }
+
+  nav > div .logo-link {
+    order: -1;
+    margin-right: auto;
+  }
+  
+  nav > div .menu-container {
+    order: 1;
+  }
+  
+  nav > div .nav-icons {
+    order: 0;
+  }
+
+  .menu li a button{
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: white;
+    font-size: .9em;
+  }
+  .retreats img {
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  #resources {
+    display: flex;
+  }
+  
+  #resources .resource:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .box-helper {
+    display: none;
+  }
+}
