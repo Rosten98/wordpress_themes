@@ -1,6 +1,17 @@
 <?php 
 
-// custom
+function init_template() {
+  add_theme_support( 'post-thumbnails' );
+  add_theme_support( 'title-tag' );
+
+  register_nav_menus( 
+    array(
+      'top_menu' => 'main_menu',
+    )
+  );
+}
+add_action( 'after_setup_theme', 'init_template' );
+
 function assets(){
   // CSS
   // wp_register_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css', '', '4.4.1', 'all' );

@@ -181,7 +181,7 @@ nav > div .nav-icons {
   font-size: 1.4em;
 }
 
-.menu li a button{
+.menu li a button, .donate{
   background-color: #3D5C71;
   padding: 15px 35px;
   border-radius: 3px;
@@ -189,7 +189,7 @@ nav > div .nav-icons {
   font-size: .7em;
 }
 
-.menu li a button:hover{
+.menu li a button:hover, .donate:hover{
   background-color: #1c3343;
 }
 
@@ -607,7 +607,7 @@ footer .inner-footer a:hover {
     font-size: 1.4em;
   }
 
-  .menu-desktop li a button{
+  .menu-desktop li a button, .donate{
     background-color: #3D5C71;
     padding: 10px 15px;
     border-radius: 3px;
@@ -615,7 +615,7 @@ footer .inner-footer a:hover {
     font-size: .9em;
   }
 
-  .menu-desktop li a button:hover{
+  .menu-desktop li a button:hover, .donate:hover{
     background-color: #1c3343;
   }
 
@@ -634,7 +634,7 @@ footer .inner-footer a:hover {
     margin-right: auto;
   }
   
-  nav > div .menu-container {
+  nav > div .menu-mc-container {
     order: 1;
   }
   
