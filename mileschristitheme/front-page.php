@@ -50,22 +50,24 @@
     </h5>
   </header>
   <!-- What's Miles Christi -->
-  <section class="mc-container what-is-mc" id="about">
-    <h2>¿Qué es Miles Christi y qué ofrece?</h2>
-    <p class="bg-green">
-      Nuestros sacerdotes y hermanos buscan la santidad para la mayor gloria de Dios.
-    </p>
-    <p>
-      La misión de nuestro Instituto es la <b>santificación de los laicos, particularmente de los jóvenes.</b>
-    </p>
-    <ul class="events">
-      <li class="bg-orange">1. Dirección espiritual</li>
-      <li class="bg-brown">2. Retiros Espirituales</li>
-      <li class="bg-darkblue">3. Formación Católica</li>
-    </ul>
-    <div class="videos">
-      <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-      <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  <section class="what-is-mc" id="about">
+    <div class="mc-container">
+      <h2>¿Qué es Miles Christi y qué ofrece?</h2>
+      <p class="bg-green">
+        Nuestros sacerdotes y hermanos buscan la santidad para la mayor gloria de Dios.
+      </p>
+      <p>
+        La misión de nuestro Instituto es la <b>santificación de los laicos, particularmente de los jóvenes.</b>
+      </p>
+      <ul class="events">
+        <li class="bg-orange">1. Dirección espiritual</li>
+        <li class="bg-brown">2. Retiros Espirituales</li>
+        <li class="bg-darkblue">3. Formación Católica</li>
+      </ul>
+      <div class="videos">
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div>
     </div>
   </section>
   <!-- Next Retreats -->
