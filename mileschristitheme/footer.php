@@ -35,7 +35,6 @@
       </section>
     </div>
   </footer>
-  <script src="./assets/js/index.js"></script>
   <script type="text/javascript">
   /* curator-feed-default-feed-layout */
   (function(){

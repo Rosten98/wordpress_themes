@@ -34,22 +34,24 @@
         <li><a href="#resources">Blog</a></li>
         <li><a href="#Donate"><button>Donar ahora</button></a></li>
       </ul> -->
-      <div class="menu">
+      <div class="menu" id="menu">
        <?php wp_nav_menu(
           array(
             'theme_location' => 'top_menu',
-            'menu_class' => 'menu', // class for wp 'ul' element
-            'container_class' => 'menu-container' // class for wp 'container' element
+            'menu_class' => 'menu menu-ul', // class for wp 'ul' element
+            'container_class' => 'menu-container', // class for wp 'container' element
+            'menu_id' => 'menu',
+            'container' => false,
             )
         ); ?>
-        <a href="#Donate"><button class="donate">Donar ahora</button></a>
+        <ul><li><a href="#Donate"><button class="donate">Donar ahora</button></a></li></ul>
       </div>
       <div class="menu-desktop">
         <?php wp_nav_menu(
           array(
             'theme_location' => 'top_menu',
             'menu_class' => 'menu-desktop', // class for wp 'ul' element
-            'container_class' => 'menu-container' // class for wp 'container' element
+            'container_class' => 'menu-container', // class for wp 'container' element
             )
         ); ?>
         <ul><li><a href="#Donate"><button class="donate">Donar ahora</button></a></li></ul>

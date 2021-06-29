@@ -175,6 +175,10 @@ nav > div .nav-icons {
   transition: opacity 0.2s ease-in-out;
 }
 
+.menu-ul {
+  position: initial;
+  height: auto;
+}
 
 .menu li {
   margin-bottom: 40px;
