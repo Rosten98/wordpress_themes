@@ -13,7 +13,7 @@
 
 <nav class="nav">
   <div class="mc-container inner-nav">
-    <a href="./" class="logo-link">
+    <a href=<?php echo home_url()?> class="logo-link">
       <img src=<?php echo get_template_directory_uri()."./assets/img/logo-white.png"?> alt="" height="60px" class="logo">
     </a>
     <div class="nav-icons">
@@ -22,18 +22,6 @@
     </div>
     <div class="menu-mc-container">
       <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
-      <!-- <ul class="menu" id="menu">
-        <li><a href="#about" onclick="closeNav()">Nosotros</a></li>
-        <li><a href="#retreats" onclick="closeNav()">Apostolados</a></li>
-        <li><a href="#resources" onclick="closeNav()">Blog</a></li>
-        <li><a href="#Donate" onclick="closeNav()"><button>Donar ahora</button></a></li>
-      </ul>
-      <ul class="menu-desktop">
-        <li><a href="#about">Nosotros</a></li>
-        <li><a href="#retreats">Apostolados</a></li>
-        <li><a href="#resources">Blog</a></li>
-        <li><a href="#Donate"><button>Donar ahora</button></a></li>
-      </ul> -->
       <div class="menu" id="menu">
        <?php wp_nav_menu(
           array(

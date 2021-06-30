@@ -7,6 +7,7 @@ function init_template() {
   register_nav_menus( 
     array(
       'top_menu' => 'main_menu',
+      'bottom_menu' => 'other_links',
     )
   );
 }

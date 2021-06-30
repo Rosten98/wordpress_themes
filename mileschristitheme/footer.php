@@ -3,15 +3,13 @@
     <div class="mc-container inner-footer">
       <section>
         <h5>Sitios de interés</h5>
-        <ul>
-          <li><a href="#">Multimedia</a></li>
-          <li><a href="#">Actividades Jóvenes</a></li>
-          <li><a href="#">Grupos de apostolado</a></li>
-          <li><a href="#">Retiros</a></li>
-          <li><a href="#">Quiénes somos</a></li>
-          <li><a href="#">Ayúdanos</a></li>
-          <li><a href="#">Consagradas</a></li>
-        </ul>
+        <?php wp_nav_menu(
+            array(
+              'theme_location' => 'bottom_menu',
+              'menu_class' => 'otros-links',
+              'container_class' => 'otro-links'
+            )
+          ); ?>
       </section>
       <section>
         <h5>Miles Christi en el mundo</h5>
