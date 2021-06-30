@@ -1,6 +1,6 @@
 <?php wp_footer(); ?>
   <footer class="footer">
-    <div class="container inner-footer">
+    <div class="mc-container inner-footer">
       <section>
         <h5>Sitios de interés</h5>
         <ul>
