@@ -131,6 +131,20 @@
       </div>
     </div>
   </section>
+  <!-- Apostolados -->
+  <section class="apostolados">
+    <h4>Apostolados</h4>
+    <div class="mc-container">
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-01.png"?> alt="Apostolado Piel Giorgia"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-02.png"?> alt="Apostolado Polaris"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-03.png"?> alt="Apostolado Ancora"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-04.png"?> alt="Apostolado Tota Pulchra"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-05.png"?> alt="Apostolado Faro"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-06.png"?> alt="Apostolado Joselitos"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-07.png"?> alt="Apostolado Madonna"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-08.png"?> alt="Apostolado Pulchritas"></a>
+    </div>
+  </section>
   <!-- Instagram -->
   <section class="instagram">
     <h4>Síguenos en Instagram</h4>
