@@ -13,7 +13,7 @@
   <nav class="nav">
     <div class="mc-container inner-nav">
       <a href="./#" class="logo-link">
-        <img src=<?php echo get_template_directory_uri()."./assets/img/logo-white.png"?> alt="" height="60px" class="logo">
+        <img src=<?php echo get_template_directory_uri()."./assets/img/logo-white.png"?> alt="" class="logo">
       </a>
       <div class="nav-icons">
         <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>

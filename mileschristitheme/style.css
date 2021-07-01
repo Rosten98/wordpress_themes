@@ -92,6 +92,10 @@ h2, h3, h4 {
 }
 
 /* NAVIGATION */
+.logo {
+  height: 60px;
+}
+
 .box-helper {
   height: 100px;
   background-color: rgb(15, 15, 15);
@@ -548,6 +552,9 @@ footer .inner-footer a:hover {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .logo {
+    height: 75px;
+  }
   .quote {
     font-size: 4em;
   }
@@ -624,6 +631,10 @@ footer .inner-footer a:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .logo {
+    height: 90px;
+  }
+
   .nav .inner-nav{
     justify-content: flex-end;
   }
