@@ -432,6 +432,8 @@ nav > div .nav-icons {
 .apostolados{
   /* background-color: #e8eaec; */
   background-color: #fafafa;
+  background: rgb(241,241,241);
+  background: linear-gradient(0deg, rgba(241,241,241,0.48503151260504207) 11%, rgba(246,246,246,0.1741071428571429) 100%);
   padding-top: 1px;
   padding-bottom: 22px;
   margin-top: 10px;
