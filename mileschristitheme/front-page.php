@@ -13,7 +13,7 @@
   <nav class="nav">
     <div class="mc-container inner-nav">
       <a href="./#" class="logo-link">
-        <img src=<?php echo get_template_directory_uri()."./assets/img/logo-white.png"?> alt="" height="60px" class="logo">
+        <img src=<?php echo get_template_directory_uri()."/assets/img/logo-white.png"?> alt="" height="60px" class="logo">
       </a>
       <div class="nav-icons">
         <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>
@@ -40,7 +40,7 @@
   <header class="header-quote">
     <div class="box-helper"></div>
     <video width="100%" height="100%" autoplay muted loop>
-      <source src=<?php echo get_template_directory_uri()."./assets/main_video.mp4"?> type="video/mp4">
+      <source src=<?php echo get_template_directory_uri()."/assets/main_video.mp4"?> type="video/mp4">
     Your browser does not support the video tag.
     </video>
     <h5 class="quote">
@@ -72,7 +72,7 @@
   </section>
   <!-- Next Retreats -->
   <section class="retreats" id="retreats">
-    <img src=<?php echo get_template_directory_uri()."./assets/img/ejercicios.jpg"?> alt="" width="100%">
+    <img src=<?php echo get_template_directory_uri()."/assets/img/ejercicios.jpg"?> alt="" width="100%">
     <div class="retreats-filter"></div>
     <div class="mc-container retreats-text">
       <h3>
@@ -135,14 +135,14 @@
   <section class="apostolados">
     <h4>Apostolados</h4>
     <div class="mc-container">
-      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-01.png"?> alt="Apostolado Piel Giorgia"></a>
-      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-02.png"?> alt="Apostolado Polaris"></a>
-      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-03.png"?> alt="Apostolado Ancora"></a>
-      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-04.png"?> alt="Apostolado Tota Pulchra"></a>
-      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-05.png"?> alt="Apostolado Faro"></a>
-      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-06.png"?> alt="Apostolado Joselitos"></a>
-      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-07.png"?> alt="Apostolado Madonna"></a>
-      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."./assets/img/Apostolados-08.png"?> alt="Apostolado Pulchritas"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-01.png"?> alt="Apostolado Piel Giorgia"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-02.png"?> alt="Apostolado Polaris"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-03.png"?> alt="Apostolado Ancora"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-04.png"?> alt="Apostolado Tota Pulchra"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-05.png"?> alt="Apostolado Faro"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-06.png"?> alt="Apostolado Joselitos"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-07.png"?> alt="Apostolado Madonna"></a>
+      <a href="<?php echo home_url()?>"><img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-08.png"?> alt="Apostolado Pulchritas"></a>
     </div>
   </section>
   <!-- Instagram -->
