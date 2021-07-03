@@ -128,6 +128,27 @@ blockquote {
   line-height: 1.8em;
 }
 
+.error-code {
+  background-color: rgba(204, 204, 204, 0.193);
+  padding: 28px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.error-code p {
+  font-size: 6em;
+}
+
+.error-code a {
+  color: #4580a7;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.error-code a:hover {
+  text-decoration: underline;
+}
+
 /* NAVIGATION */
 .logo {
   height: 60px;
