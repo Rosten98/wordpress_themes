@@ -95,6 +95,14 @@ h2, h3, h4 {
   margin-top: 100px;
 }
 
+.mb-100n {
+  margin-bottom: -140px;
+}
+
+.mt-200 {
+  margin-top: 170px;
+}
+
 .my-20 {
   margin: 30px 0;
 }
@@ -107,6 +115,7 @@ h2, h3, h4 {
   height: 400px;
   width: 100%;
   object-fit: cover;
+  opacity: 0.5;
 }
 
 blockquote {
