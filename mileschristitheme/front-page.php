@@ -91,7 +91,7 @@
         Videos Espirituales
       </h3>
       <span class="iconify" data-inline="false" data-icon="akar-icons:airplay-video"></span>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Toma un par de minutos para acceder a nuestros videos en los que presentamos temas para todas las edades.</p>
       <button>Ver todo</button>
     </div>
     <div class="bg-darkblue resource">
@@ -99,15 +99,15 @@
         Podcast - Historias Católicas
       </h3>
       <span class="iconify" data-inline="false" data-icon="akar-icons:headphone"></span>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      <button>Ver todo</button>
+      <p>Escucha nuestro podcast Historias Católicas, historias que inspiran y encienden en amor a Dios.</p>
+      <button><a href="https://open.spotify.com/show/2dUq9h1RScXeh6hgjJe0pk" target="_blank">Ver todo</a></button>
     </div>
     <div class="bg-green resource">
       <h3>
         Blog
       </h3>
       <span class="iconify" data-inline="false" data-icon="akar-icons:newspaper"></span>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Una lectura puede tener un gran impacto en tu fe, pásate por nuestro blog para ver qué hay de nuevo.</p>
       <button>Ver todo</button>
     </div>
   </section>
