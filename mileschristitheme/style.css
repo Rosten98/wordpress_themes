@@ -99,12 +99,20 @@ h2, h3, h4 {
   margin-bottom: -140px;
 }
 
+.mb-20{
+  margin-bottom: 20px;
+}
+
 .mt-200 {
   margin-top: 170px;
 }
 
 .my-20 {
   margin: 30px 0;
+}
+
+.my-18 {
+  margin: 18px 0;
 }
 
 .post-content > * {
@@ -279,6 +287,54 @@ nav > div .nav-icons {
 .quote span {
   font-size: .6em;
   font-weight: 600;
+}
+
+/* Blogspot */
+.blogposts {
+ display: grid;
+ grid-template-columns: repeat(1, 1fr);
+ grid-gap: 40px;
+}
+
+.blogpost {
+  -webkit-box-shadow: 0px 3px 6px 1px rgba(234, 234, 234, 0.6);
+  -moz-box-shadow: 0px 3px 6px 1px rgba(234, 234, 234, 0.6);
+  box-shadow: 0px 3px 6px 1px rgba(234, 234, 234, 0.6);
+}
+
+.blogpost-content {
+  padding: 18px;
+}
+
+.blogpost > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.blogpost p {
+  font-size: .9em;
+  line-height: 1.6em;
+  margin: 20px 0;
+}
+
+.blogpost span {
+  font-size: 0.8em;
+  color: rgb(140, 140, 140);
+}
+
+.blogpost a {
+  display: inline-block;
+  background-color: #3D5C71;
+  padding: 10px 15px;
+  border-radius: 3px;
+  color: white;
+  font-size: .8em;
+  transition: .3s background-color;
+}
+
+.blogpost a:hover{
+  background-color: #1c3343;
 }
 
 /* What's MC */
@@ -623,6 +679,10 @@ footer .inner-footer a:hover {
   .quote span {
     font-size: 24px;
   }
+  .blogposts {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
   .what-is-mc h2 {
     font-size: 3em;
   }
@@ -693,6 +753,11 @@ footer .inner-footer a:hover {
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+  .blogposts {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+  }
+
   .logo {
     height: 90px;
   }

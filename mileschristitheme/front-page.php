@@ -92,7 +92,7 @@
       </h3>
       <span class="iconify" data-inline="false" data-icon="akar-icons:airplay-video"></span>
       <p>Toma un par de minutos para acceder a nuestros videos en los que presentamos temas para todas las edades.</p>
-      <button>Ver todo</button>
+      <button><a href="https://www.youtube.com/c/MilesChristiMX" target="_blank">Ver todo</a></button>
     </div>
     <div class="bg-darkblue resource">
       <h3>
@@ -108,7 +108,7 @@
       </h3>
       <span class="iconify" data-inline="false" data-icon="akar-icons:newspaper"></span>
       <p>Una lectura puede tener un gran impacto en tu fe, pásate por nuestro blog para ver qué hay de nuevo.</p>
-      <button>Ver todo</button>
+      <button><a href=<?php echo home_url().'/blog'?>>Ver todo</a></button>
     </div>
   </section>
   <!-- Upcoming events -->
