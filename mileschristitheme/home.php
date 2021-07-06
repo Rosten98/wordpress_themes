@@ -22,10 +22,18 @@
 <?php the_shortlink( 'Leer artículo')?>
 </div>
 </div>
-  <?php
-    }
-  }?>
+<?php }
+?>
 </section>
+<section class="blogposts-pagination">
+  <div class="previous">
+    <?php  previous_posts_link( 'Anterior' );?>
+  </div>
+  <div class="next">
+    <?php next_posts_link('Siguiente'); ?>
+  </div>
+</section>
+<?php }?>
 </main>
 
 <?php get_footer(); ?>

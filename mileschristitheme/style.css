@@ -296,6 +296,27 @@ nav > div .nav-icons {
  grid-gap: 40px;
 }
 
+.blogposts-pagination {
+  margin: 32px 0;
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.blogposts-pagination .next {
+  margin-left: auto;
+}
+
+.blogposts-pagination a {
+  background-color: rgb(242, 242, 242);
+  padding: 10px 20px;
+  border-radius: 3px;
+  transition: .3s background-color;
+}
+
+.blogposts-pagination a:hover {
+  background-color: rgb(226, 226, 226);
+}
+
 .blogpost {
   -webkit-box-shadow: 0px 3px 6px 1px rgba(234, 234, 234, 0.6);
   -moz-box-shadow: 0px 3px 6px 1px rgba(234, 234, 234, 0.6);
