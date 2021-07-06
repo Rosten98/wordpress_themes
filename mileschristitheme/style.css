@@ -84,7 +84,7 @@ h2, h3, h4 {
 }
 
 .bg-brown {
-  background-color: #a27933;
+  background-color: #938a83;
 }
 
 .bg-darkblue {
@@ -374,12 +374,12 @@ nav > div .nav-icons {
 .what-is-mc p {
   font-size: 1.2em;
   line-height: 1.6em;
-  padding: 20px 0;
+  /* padding: 20px 0; */
 }
 
 .what-is-mc p.bg-green {
-  padding: 20px;
-  /* margin-bottom: 10px; */
+  /* padding: 20px; */
+  margin-bottom: 10px;
   font-size: 1.2em;
   border-radius: 60px;
   line-height: 1.6em;
@@ -555,7 +555,7 @@ nav > div .nav-icons {
   /* background-color: #e8eaec; */
   background-color: #fafafa;
   background: rgb(241,241,241);
-  background: linear-gradient(0deg, rgba(241,241,241,0.48503151260504207) 11%, rgba(246,246,246,0.1741071428571429) 100%);
+  background: linear-gradient(330deg, rgb(240 246 250) 11%, rgb(240 246 250 / 30%) 100%);
   padding-top: 1px;
   padding-bottom: 22px;
   margin-top: 10px;

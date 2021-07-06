@@ -16,22 +16,24 @@
         <img src=<?php echo get_template_directory_uri()."/assets/img/logo-white.png"?> alt="" height="60px" class="logo">
       </a>
       <div class="nav-icons">
-        <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>
+        <!-- <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span> -->
         <span class="iconify" data-inline="false" data-icon="akar-icons:text-align-right" id="ham-menu" onclick="openNav()"></span>
       </div>
       <div class="menu-mc-container">
         <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
         <ul class="menu" id="menu">
           <li><a href="#about" onclick="closeNav()">Nosotros</a></li>
-          <li><a href="#retreats" onclick="closeNav()">Apostolados</a></li>
-          <li><a href="#resources" onclick="closeNav()">Blog</a></li>
-          <li><a href="#Donate" onclick="closeNav()"><button>Donar ahora</button></a></li>
+          <li><a href="#retreats" onclick="closeNav()">Ejercicios Espirituales</a></li>
+          <li><a href="#resources" onclick="closeNav()">Recursos</a></li>
+          <li><a href="#apostolados" onclick="closeNav()">Apostolados</a></li>
+          <li><a href=<?php echo home_url().'/donaciones'?> onclick="closeNav()"><button>Donar ahora</button></a></li>
         </ul>
         <ul class="menu-desktop">
           <li><a href="#about">Nosotros</a></li>
-          <li><a href="#retreats">Apostolados</a></li>
-          <li><a href="#resources">Blog</a></li>
-          <li><a href="#Donate"><button>Donar ahora</button></a></li>
+          <li><a href="#retreats">Ejercicios Espirituales</a></li>
+          <li><a href="#resources">Recursos</a></li>
+          <li><a href="#apostolados">Apostolados</a></li>
+          <li><a href=<?php echo home_url().'/donaciones'?>><button>Donar ahora</button></a></li>
         </ul>
       </div>
     </div>
@@ -78,10 +80,13 @@
       <h3>
         Transforma tu amistad con Cristo en los Ejercicios Espirituales
       </h3>
+      <a href=<?php echo home_url().'/ejercicios-espirituales'?>
+      >
       <button>
         Próximas fechas
         <span class="iconify" data-inline="false" data-icon="akar-icons:arrow-right-thick"></span>
       </button>
+    </a>
     </div>
   </section>
   <!-- Other resources -->
@@ -92,7 +97,7 @@
       </h3>
       <span class="iconify" data-inline="false" data-icon="akar-icons:airplay-video"></span>
       <p>Toma un par de minutos para acceder a nuestros videos en los que presentamos temas para todas las edades.</p>
-      <button><a href="https://www.youtube.com/c/MilesChristiMX" target="_blank">Ver todo</a></button>
+      <a href="https://www.youtube.com/c/MilesChristiMX" target="_blank"><button>Ver todo</button></a>
     </div>
     <div class="bg-darkblue resource">
       <h3>
@@ -100,7 +105,7 @@
       </h3>
       <span class="iconify" data-inline="false" data-icon="akar-icons:headphone"></span>
       <p>Escucha nuestro podcast Historias Católicas, historias que inspiran y encienden en amor a Dios.</p>
-      <button><a href="https://open.spotify.com/show/2dUq9h1RScXeh6hgjJe0pk" target="_blank">Ver todo</a></button>
+      <a href="https://open.spotify.com/show/2dUq9h1RScXeh6hgjJe0pk" target="_blank"><button>Ver todo</button></a>
     </div>
     <div class="bg-green resource">
       <h3>
@@ -108,11 +113,11 @@
       </h3>
       <span class="iconify" data-inline="false" data-icon="akar-icons:newspaper"></span>
       <p>Una lectura puede tener un gran impacto en tu fe, pásate por nuestro blog para ver qué hay de nuevo.</p>
-      <button><a href=<?php echo home_url().'/blog'?>>Ver todo</a></button>
+      <a href=<?php echo home_url().'/blog'?>><button>Ver todo</button></a>
     </div>
   </section>
   <!-- Upcoming events -->
-  <section class="mc-container upcoming">
+  <section class="mc-container upcoming" id="apostolados">
     <h2>Próximos Eventos</h2>
     <div>
       <div class="card">

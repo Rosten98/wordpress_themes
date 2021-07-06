@@ -17,7 +17,7 @@
       <img src=<?php echo get_template_directory_uri()."/assets/img/logo-white.png"?> alt="" height="60px" class="logo">
     </a>
     <div class="nav-icons">
-      <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span>
+      <!-- <span class="iconify search" data-inline="false" data-icon="akar-icons:search" id="search" style="color:white;"></span> -->
       <span class="iconify" data-inline="false" data-icon="akar-icons:text-align-right" id="ham-menu" onclick="openNav()"></span>
     </div>
     <div class="menu-mc-container">
