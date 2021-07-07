@@ -45,11 +45,6 @@
       <source src=<?php echo get_template_directory_uri()."/assets/main_video.mp4"?> type="video/mp4">
     Your browser does not support the video tag.
     </video>
-    <h5 class="quote">
-      Lorem ipsum dolor sit amet. 
-      <br>
-      <span>Quote</span>
-    </h5>
   </header>
   <!-- What's Miles Christi -->
   <section class="what-is-mc" id="about">
@@ -67,8 +62,8 @@
         <li class="bg-darkblue">3. Formación Católica</li>
       </ul>
       <div class="videos">
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/udG5jrYDkok" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/ohh4iateCrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/GyWa68h4Vo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>
     </div>
   </section>
