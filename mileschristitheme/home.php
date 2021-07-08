@@ -15,7 +15,9 @@
         the_post();
         if(has_post_thumbnail()){
           the_post_thumbnail('small');
-        }
+        } else { ?>
+    <img src=<?php echo get_template_directory_uri()."/assets/img/entry.jpg"?> alt="">
+    <?php }
     ?>
     <div class="blogpost-content">
     <span><?php the_date()?></span>
