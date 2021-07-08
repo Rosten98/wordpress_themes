@@ -299,6 +299,7 @@ nav > div .nav-icons {
 .header-quote {
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -313,7 +314,7 @@ nav > div .nav-icons {
   height: 20px;
   background-color: white;
   border-radius: 0 100% 0 0 ;
-  border-top: 15px solid #3D5C71;
+  border-top: 10px solid white;
 }
 
 .quote {
