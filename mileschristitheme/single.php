@@ -2,17 +2,17 @@
 
 <?php if(have_posts()){
   while(have_posts()){
-    the_post();?>
-    <?php 
-      if(has_post_thumbnail()){
-     ?>
+    the_post();
+?>
 <header class="post-thumbnail mt-100 mb-100n">
-  <?php the_post_thumbnail('large')?>
+  <?php if(has_post_thumbnail()){
+    the_post_thumbnail('large');
+  } else { ?>
+  <img src=<?php echo get_template_directory_uri()."/assets/img/entry.jpg"?> alt="">
+  <?php } ?>
 </header>
-     <?php   
-      }
-    ?>
-<main class="mc-container mt-200">
+     
+<main class="mc-container mt-200 mb-100">
       <h1 class="my-20"><?php the_title()?></h1>
       <div class="my-20 post-content">
         <?php the_content()?>

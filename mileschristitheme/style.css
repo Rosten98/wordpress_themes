@@ -99,6 +99,10 @@ h2, h3, h4 {
   margin-bottom: -140px;
 }
 
+.mb-100 {
+  margin-bottom: 100px;
+}
+
 .mb-20{
   margin-bottom: 20px;
 }
@@ -335,7 +339,7 @@ nav > div .nav-icons {
   font-weight: 600;
 }
 
-/* Blogspot */
+/* Blogpost */
 .blogposts {
  display: grid;
  grid-template-columns: repeat(1, 1fr);
@@ -377,6 +381,7 @@ nav > div .nav-icons {
   width: 100%;
   height: auto;
   object-fit: cover;
+  max-height: 200px;
 }
 
 .blogpost p {
