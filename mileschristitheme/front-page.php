@@ -117,15 +117,15 @@
     <div>
       <div class="card">
         <div class="card-left">
-          <h4>Curso de Biblia</h4>
-          <p>Semanal</p>
+          <h4>Parresía - Semper Fidelis</h4>
+          <p> Octubre 1-3</p>
         </div>
         <a><button>Saber más</button></a>
       </div>
       <div class="card">
         <div class="card-left">
-          <h4>Ejercicios Espirituales</h4>
-          <p>Hombres y Mujeres</p>
+          <h4>Astra - Senderismo en Parque de los Frailes</h4>
+          <p>Tapalpa. 18 de Julio</p>
         </div>
         <a><button>Saber más</button></a>
       </div>
