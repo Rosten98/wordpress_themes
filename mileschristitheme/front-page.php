@@ -42,7 +42,7 @@
   <header class="header-quote">
     <div class="box-helper"></div>
     <video width="100%" height="100%" autoplay muted loop>
-      <source src=<?php echo get_template_directory_uri()."/assets/main_video.mp4"?> type="video/mp4">
+      <source src="https://www.mileschristi.org.mx/wp-content/uploads/sites/5/2021/07/main_video.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
   </header>
