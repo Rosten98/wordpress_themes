@@ -1,6 +1,6 @@
 /* 
   Theme name: Miles Christi MX
-  Version: 1.0
+  Version: 1.0.1
   Description: Miles Christi MX tema personalizado
   Author: Gerardo Rodriguez
   Author URI: twitter.com/thereactivedev
@@ -448,7 +448,7 @@ nav > div .nav-icons {
   display: flex;
 }
 
-.retreats::before {
+/* .retreats::before {
   content: '.';
   color:white;
   text-align: center;
@@ -470,12 +470,12 @@ nav > div .nav-icons {
   height: 20px;
   background-color: white;
   border-radius: 100% 100% 0 0 ;
-}
+} */
 
 .retreats h3{
   text-align: center;
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: 500;
   color: white;
   margin: 0;
   margin-bottom: 28px;
@@ -501,7 +501,7 @@ nav > div .nav-icons {
 }
 
 .retreats img {
-  height: 100%;
+  height: 130%;
   z-index: -10;
 }
 
@@ -647,8 +647,8 @@ nav > div .nav-icons {
 
 .apostolados div{
   display: grid;
-  grid-gap: 50px;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   margin: 20px 0;
   margin: 0 auto;
   /* grid-template-rows: repeat(2, 100px); */
@@ -782,7 +782,7 @@ footer .inner-footer a:hover {
   }
   .retreats h3 {
     font-size: 3em;
-    /* font-weight: 400; */
+    margin-bottom: 80px;
   }
   .upcoming h2 {
     font-size: 2em;
@@ -804,6 +804,10 @@ footer .inner-footer a:hover {
 
   .apostolados h4 {
     font-size: 1.3em;
+  }
+
+  .apostolados div{
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   }
   
   .instagram h4 {
@@ -912,6 +916,10 @@ footer .inner-footer a:hover {
   #resources .resource:nth-child(2) {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .apostolados div{
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
 }
 
