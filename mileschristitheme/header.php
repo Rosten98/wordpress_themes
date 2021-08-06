@@ -23,26 +23,24 @@
     <div class="menu-mc-container">
       <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
       <div class="menu" id="menu">
-       <?php wp_nav_menu(
-          array(
-            'theme_location' => 'top_menu',
-            'menu_class' => 'menu menu-ul', // class for wp 'ul' element
-            'container_class' => 'menu-container', // class for wp 'container' element
-            'menu_id' => 'menu',
-            'container' => false,
-            )
-        ); ?>
-        <ul><li><a href="#Donate"><button class="donate">Donar ahora</button></a></li></ul>
+        <ul class="menu menu-ul" id="menu">
+          <li><a href=<?php echo home_url()?>>Inicio</a></li>
+          <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
+          <li><a href=<?php echo home_url().'/jovenes/'?>>Jóvenes</a></li>
+          <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
+          <li><a href=<?php echo home_url().'/nosotros/'?>>Nosotros</a></li>
+        </ul>
+        <ul><li><a href="<?php echo home_url().'/donaciones/'?>"><button class="donate">Donar ahora</button></a></li></ul>
       </div>
       <div class="menu-desktop">
-        <?php wp_nav_menu(
-          array(
-            'theme_location' => 'top_menu',
-            'menu_class' => 'menu-desktop', // class for wp 'ul' element
-            'container_class' => 'menu-container', // class for wp 'container' element
-            )
-        ); ?>
-        <ul><li><a href="#Donate"><button class="donate">Donar ahora</button></a></li></ul>
+        <ul class="menu-desktop">
+          <li><a href=<?php echo home_url()?>>Inicio</a></li>
+          <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
+          <li><a href=<?php echo home_url().'/jovenes/'?>>Jóvenes</a></li>
+          <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
+          <li><a href=<?php echo home_url().'/nosotros/'?>>Nosotros</a></li>
+        </ul>
+        <ul><li><a href="<?php echo home_url().'/donaciones/'?>"><button class="donate">Donar ahora</button></a></li></ul>
       </div>
     </div>
   </div>

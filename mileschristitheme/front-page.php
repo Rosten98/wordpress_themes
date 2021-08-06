@@ -12,7 +12,7 @@
   <!-- Navigation -->
   <nav class="nav">
     <div class="mc-container inner-nav">
-      <a href="./#" class="logo-link">
+      <a href="./" class="logo-link">
         <img src=<?php echo get_template_directory_uri()."/assets/img/logo-white.png"?> alt="" height="60px" class="logo">
       </a>
       <div class="nav-icons">
@@ -42,7 +42,7 @@
   <header class="header-quote">
     <div class="box-helper"></div>
     <video width="100%" height="100%" autoplay muted loop>
-      <source src="https://www.mileschristi.org.mx/wp-content/uploads/sites/5/2021/07/main_video.mp4" type="video/mp4">
+      <source src="https://www.mileschristi.org.mx/wp-content/uploads/sites/5/2021/08/main_video_mc.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
   </header>
@@ -62,7 +62,7 @@
         <li class="bg-darkblue">3. Formación Católica</li>
       </ul>
       <div class="videos">
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/ohh4iateCrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/7fhxhtrTIds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="100%" height="400" src="https://www.youtube.com/embed/GyWa68h4Vo8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>
     </div>
@@ -120,14 +120,14 @@
           <h4>Parresía - Semper Fidelis</h4>
           <p> Octubre 1-3</p>
         </div>
-        <a><button>Saber más</button></a>
+        <a href=<?php echo home_url().'/jovenes/'?>><button>Saber más</button></a>
       </div>
       <div class="card">
         <div class="card-left">
           <h4>Astra - Senderismo en Parque de los Frailes</h4>
           <p>Tapalpa. 18 de Julio</p>
         </div>
-        <a><button>Saber más</button></a>
+        <a href=<?php echo home_url().'/jovenes/'?>><button>Saber más</button></a>
       </div>
     </div>
   </section>
