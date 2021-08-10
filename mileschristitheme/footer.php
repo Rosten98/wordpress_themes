@@ -1,15 +1,9 @@
 <?php wp_footer(); ?>
   <footer class="footer">
     <div class="mc-container inner-footer">
-      <section>
-        <h5>Sitios de interés</h5>
-        <?php wp_nav_menu(
-            array(
-              'theme_location' => 'bottom_menu',
-              'menu_class' => 'otros-links',
-              'container_class' => 'otro-links'
-            )
-          ); ?>
+      <section class="donate-section">
+        <h5>Ayúdanos con tu donación</h5>
+        <a href="<?php echo home_url().'/donaciones/'?>"><button class="donate-footer">Donar ahora</button></a>
       </section>
       <section>
         <h5>Miles Christi en el mundo</h5>

@@ -1,6 +1,6 @@
 /* 
   Theme name: Miles Christi MX
-  Version: 1.0.1
+  Version: 1.0.2
   Description: Miles Christi MX tema personalizado
   Author: Gerardo Rodriguez
   Author URI: twitter.com/thereactivedev
@@ -426,7 +426,7 @@ nav > div .nav-icons {
 }
 
 .what-is-mc p.bg-green {
-  /* padding: 20px; */
+  padding: 10px;
   margin-bottom: 10px;
   font-size: 1.2em;
   border-radius: 60px;
@@ -741,6 +741,24 @@ footer .inner-footer a {
 
 footer .inner-footer a:hover {
   color: #d2dae0;
+}
+
+.donate-section{
+  width: 100%;
+}
+
+.donate-footer{
+  background-color: #d05050;
+  padding: 15px 35px;
+  border-radius: 3px;
+  color: white;
+  width: 100%;
+  font-size: 1em;
+  margin-top: 10px;
+}
+
+.donate-footer:hover{
+  background-color: #a73a3a;
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
