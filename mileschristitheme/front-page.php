@@ -63,7 +63,7 @@
       </ul>
       <div class="videos">
         <iframe width="100%" height="400" src="https://www.youtube.com/embed/7fhxhtrTIds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/NYePffHJxvc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/P83udnQo0tI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>
     </div>
   </section>
@@ -114,21 +114,11 @@
   <!-- Upcoming events -->
   <section class="mc-container upcoming" id="apostolados">
     <h2>Próximos Eventos</h2>
-    <div>
-      <div class="card">
-        <div class="card-left">
-          <h4>Parresía - Semper Fidelis</h4>
-          <p> Octubre 1-3</p>
-        </div>
-        <a href=<?php echo home_url().'/jovenes/'?>><button>Saber más</button></a>
-      </div>
-      <div class="card">
-        <div class="card-left">
-          <h4>Astra - Senderismo en Parque de los Frailes</h4>
-          <p>Tapalpa. 18 de Julio</p>
-        </div>
-        <a href=<?php echo home_url().'/jovenes/'?>><button>Saber más</button></a>
-      </div>
+    <div style="display:flex;flex-direction:column;justify-content:center;align-items:center">
+      <img src="<?php echo get_template_directory_uri()."/assets/img/parresia.jpeg"?>" alt="" style="max-width: 400px;">
+      <a href="https://forms.gle/3EdV9GH6CwLEpXXs6" class="button" target="_blank" style="padding: 16px 0; max-width:400px; width:100%">
+        <button class="donate-footer">Inscríbete ahora</button>
+      </a>
     </div>
   </section>
   <!-- Apostolados -->
