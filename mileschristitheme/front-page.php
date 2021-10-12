@@ -112,15 +112,7 @@
     </div>
   </section>
   <!-- Upcoming events -->
-  <section class="mc-container upcoming" id="apostolados">
-    <h2>Próximos Eventos</h2>
-    <div style="display:flex;flex-direction:column;justify-content:center;align-items:center">
-      <img src="<?php echo get_template_directory_uri()."/assets/img/parresia.jpeg"?>" alt="" style="max-width: 400px;">
-      <a href="https://forms.gle/3EdV9GH6CwLEpXXs6" class="button" target="_blank" style="padding: 16px 0; max-width:400px; width:100%">
-        <button class="donate-footer">Inscríbete ahora</button>
-      </a>
-    </div>
-  </section>
+  
   <!-- Apostolados -->
   <section class="apostolados">
     <h4>Apostolados</h4>
