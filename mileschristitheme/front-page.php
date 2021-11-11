@@ -61,7 +61,11 @@
         <li class="bg-brown">2. Retiros Espirituales</li>
         <li class="bg-darkblue">3. Formación Católica</li>
       </ul>
-      <div class="videos">
+      <div class="videos videos-phone">
+        <iframe width="100%" height="250" src="https://www.youtube.com/embed/7fhxhtrTIds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="250" src="https://www.youtube.com/embed/xw7rPU4tuVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div>
+      <div class="videos videos-others">
         <iframe width="100%" height="400" src="https://www.youtube.com/embed/7fhxhtrTIds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="100%" height="400" src="https://www.youtube.com/embed/xw7rPU4tuVY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>

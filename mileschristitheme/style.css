@@ -410,6 +410,14 @@ nav > div .nav-icons {
 }
 
 /* What's MC */
+.videos.videos-phone {
+  display: initial;
+}
+
+.videos.videos-others {
+  display: none;
+}
+
 .what-is-mc {
   position: relative;
   text-align: center;
@@ -779,7 +787,7 @@ footer .inner-footer a:hover {
   .what-is-mc h2 {
     font-size: 3em;
   }
-  .what-is-mc .videos {
+  .what-is-mc .videos.videos-phone {
     display: flex;
   }
   .what-is-mc .videos iframe:nth-child(1){
@@ -845,7 +853,6 @@ footer .inner-footer a:hover {
   .footer .inner-footer section:nth-child(3) {
     order: -1;
   }
-
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -938,6 +945,16 @@ footer .inner-footer a:hover {
 
   .apostolados div{
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .what-is-mc .videos.videos-phone {
+    display: none;
+  }
+
+  .videos.videos-others {
+    display: flex;
   }
 }
 
