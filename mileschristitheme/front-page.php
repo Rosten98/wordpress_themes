@@ -62,14 +62,21 @@
         <li class="bg-darkblue">3. Formación Católica</li>
       </ul>
       <div class="videos videos-phone">
-        <iframe width="100%" height="250" src="https://www.youtube.com/embed/7fhxhtrTIds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="100%" height="250" src="https://www.youtube.com/embed/RONy-PI4clE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe width="100%" height="250" src="https://www.youtube.com/embed/wnTuQrhEnQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="250" src="https://www.youtube.com/embed/U-CNxv-M5Lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>
       <div class="videos videos-others">
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/7fhxhtrTIds" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/RONy-PI4clE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/wnTuQrhEnQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/U-CNxv-M5Lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>
     </div>
+  </section>
+  <!-- Parresia -->
+  <section class="mc-container parresia">
+    <img src=<?php echo get_template_directory_uri()."/assets/img/parresia2.jpeg"?> alt="" width="75%">
+    <a href="https://forms.gle/Btxi5GtJ3mdZAtCV6" target="_blank" referrerpolicy="no-referrer">
+      <button>Inscribirse</button>
+    </a>
   </section>
   <!-- Next Retreats -->
   <section class="retreats" id="retreats">

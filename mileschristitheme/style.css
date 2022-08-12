@@ -449,6 +449,37 @@ nav > div .nav-icons {
   margin-bottom: 14px;
 }
 
+/* Parresia */
+.parresia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.parresia a {
+  width: 75%;
+}
+
+.parresia button {
+  border: none;
+  border-radius: 3px;
+  background-color: #d05050;
+  color: white;
+  padding: 16px;
+  font-size: 1.1em;
+  transition: .2s;
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.parresia button:hover {
+  background-color: #a73a3a;
+  cursor: pointer;
+}
+
 /* Retreats */
 .retreats {
   position: relative;
@@ -949,6 +980,41 @@ footer .inner-footer a:hover {
 }
 
 @media only screen and (min-width: 1000px) {
+  /* Parresia */
+  .parresia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .parresia img {
+    width: 35%;
+  }
+
+  .parresia a {
+    width: 35%;
+  }
+
+  .parresia button {
+    border: none;
+    border-radius: 3px;
+    background-color: #d05050;
+    color: white;
+    padding: 16px;
+    font-size: 1.1em;
+    transition: .2s;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .parresia button:hover {
+    background-color: #a73a3a;
+    cursor: pointer;
+  }
+
   .what-is-mc .videos.videos-phone {
     display: none;
   }
