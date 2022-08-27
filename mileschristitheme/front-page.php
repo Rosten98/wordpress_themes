@@ -62,21 +62,33 @@
         <li class="bg-darkblue">3. Formación Católica</li>
       </ul>
       <div class="videos videos-phone">
-        <iframe width="100%" height="250" src="https://www.youtube.com/embed/wnTuQrhEnQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="250" src="https://www.youtube.com/embed/lWxkGCjgbxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="100%" height="250" src="https://www.youtube.com/embed/U-CNxv-M5Lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>
       <div class="videos videos-others">
-        <iframe width="100%" height="400" src="https://www.youtube.com/embed/wnTuQrhEnQ4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="100%" height="400" src="https://www.youtube.com/embed/lWxkGCjgbxg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe width="100%" height="400" src="https://www.youtube.com/embed/U-CNxv-M5Lw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
       </div>
     </div>
   </section>
   <!-- Parresia -->
   <section class="mc-container parresia">
-    <img src=<?php echo get_template_directory_uri()."/assets/img/parresia2.jpeg"?> alt="" width="75%">
-    <a href="https://forms.gle/Btxi5GtJ3mdZAtCV6" target="_blank" referrerpolicy="no-referrer">
-      <button>Inscribirse</button>
-    </a>
+    <h2>Próximos eventos</h2>
+    <div class="next-events">
+      <div class="event">
+        <img src=<?php echo get_template_directory_uri()."/assets/img/parresia.jpg"?> alt="parresia">
+        <a href="https://forms.gle/Btxi5GtJ3mdZAtCV6" target="_blank" referrerpolicy="no-referrer">
+          <button>Inscribirse</button>
+        </a>
+      </div>
+      <br>
+      <div class="event">
+        <img src=<?php echo get_template_directory_uri()."/assets/img/diplomado-historia2.jpg"?> alt="diplomado de historia">
+        <a href="https://wa.me/3310770991?text=" target="_blank" referrerpolicy="no-referrer">
+          <button>Pedir informes</button>
+        </a>
+      </div>
+    </div>
   </section>
   <!-- Next Retreats -->
   <section class="retreats" id="retreats">
@@ -125,19 +137,12 @@
   <!-- Upcoming events -->
   
   <!-- Apostolados -->
-  <section class="apostolados">
-    <h4>Apostolados</h4>
+  <!--<section class="apostolados">
+    <h2>Eventos</h2>
     <div class="mc-container">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-01.png"?> alt="Apostolado Piel Giorgia">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-02.png"?> alt="Apostolado Polaris">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-03.png"?> alt="Apostolado Ancora">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-04.png"?> alt="Apostolado Tota Pulchra">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-05.png"?> alt="Apostolado Faro">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-06.png"?> alt="Apostolado Joselitos">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-07.png"?> alt="Apostolado Madonna">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/Apostolados-08.png"?> alt="Apostolado Pulchritas">
     </div>
-  </section>
+  </section>-->
+
   <!-- Instagram -->
   <section class="instagram">
     <h4>Síguenos en Instagram</h4>

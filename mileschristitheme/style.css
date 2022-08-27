@@ -437,7 +437,7 @@ nav > div .nav-icons {
   padding: 10px;
   margin-bottom: 10px;
   font-size: 1.2em;
-  border-radius: 60px;
+  border-radius: 10px;
   line-height: 1.6em;
 }
 
@@ -458,7 +458,11 @@ nav > div .nav-icons {
 }
 
 .parresia a {
-  width: 75%;
+  width: 100%;
+}
+
+.parresia img {
+  width: 100%;
 }
 
 .parresia button {
@@ -478,6 +482,18 @@ nav > div .nav-icons {
 .parresia button:hover {
   background-color: #a73a3a;
   cursor: pointer;
+}
+
+.next-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Retreats */
@@ -680,7 +696,7 @@ nav > div .nav-icons {
   height: 100%;
 }
 
-.apostolados h4 {
+.apostolados h2 {
   text-align: center;
 }
 
@@ -802,6 +818,21 @@ footer .inner-footer a:hover {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+  .next-events{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .event img{
+    width: 100%;
+  }
+
+  .next-events div:nth-child(1) {
+    margin-right: 10px;
+  }
+  .next-events div:nth-child(3) {
+    margin-left: 10px;
+  }
+
   .logo {
     height: 75px;
   }
@@ -988,14 +1019,6 @@ footer .inner-footer a:hover {
     margin-top: 20px;
   }
 
-  .parresia img {
-    width: 35%;
-  }
-
-  .parresia a {
-    width: 35%;
-  }
-
   .parresia button {
     border: none;
     border-radius: 3px;
@@ -1013,6 +1036,10 @@ footer .inner-footer a:hover {
   .parresia button:hover {
     background-color: #a73a3a;
     cursor: pointer;
+  }
+
+  .event img{
+    width: 100%;
   }
 
   .what-is-mc .videos.videos-phone {
