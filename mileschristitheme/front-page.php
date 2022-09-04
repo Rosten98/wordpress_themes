@@ -25,14 +25,12 @@
           <li><a href="#about" onclick="closeNav()">Nosotros</a></li>
           <li><a href="#retreats" onclick="closeNav()">Ejercicios Espirituales</a></li>
           <li><a href="#resources" onclick="closeNav()">Recursos</a></li>
-          <li><a href="#apostolados" onclick="closeNav()">Apostolados</a></li>
           <li><a href=<?php echo home_url().'/donaciones'?> onclick="closeNav()"><button>Donar ahora</button></a></li>
         </ul>
         <ul class="menu-desktop">
           <li><a href="#about">Nosotros</a></li>
           <li><a href="#retreats">Ejercicios Espirituales</a></li>
           <li><a href="#resources">Recursos</a></li>
-          <li><a href="#apostolados">Apostolados</a></li>
           <li><a href=<?php echo home_url().'/donaciones'?>><button>Donar ahora</button></a></li>
         </ul>
       </div>
