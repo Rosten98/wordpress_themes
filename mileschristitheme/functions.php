@@ -27,4 +27,36 @@ function assets(){
 //hook
 add_action( 'wp_enqueue_scripts', 'assets' );
 
+//Custom Theme Settings
+add_action('admin_menu', 'add_gcf_interface');
+
+function add_gcf_interface() {
+	add_options_page('Links a videos de Youtube', 'Links a videos de Youtube', '8', 'functions', 'editglobalcustomfields');
+}
+
+function editglobalcustomfields() {
+	?>
+	<div class='wrap'>
+	<h2>Global Custom Fields</h2>
+	<form method="post" action="options.php">
+	<?php wp_nonce_field('update-options') ?>
+
+	<p><strong>Youtube video #1 URL</strong><br />
+	<input type="text" name="ytv1" size="45" value="<?php echo get_option('ytv1'); ?>" /></p>
+  <iframe width="300" height="200" src="<?php echo get_option('ytv1');?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<p><strong>Youtube video #2 URL</strong><br />
+	<input type="text" name="ytv2" size="45" value="<?php echo get_option('ytv2'); ?>" /></p>
+  <iframe width="300" height="200" src="<?php echo get_option('ytv2');?>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<p><input type="submit" name="Submit" value="Update Options" /></p>
+
+	<input type="hidden" name="action" value="update" />
+	<input type="hidden" name="page_options" value="ytv1,ytv2" />
+
+	</form>
+	</div>
+	<?php
+}
+
 ?>
