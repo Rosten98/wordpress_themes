@@ -90,7 +90,7 @@
   </section>
   <!-- Next Retreats -->
   <section class="retreats" id="retreats">
-    <img src=<?php echo get_template_directory_uri()."/assets/img/ejercicios.jpg"?> alt="" width="100%">
+    <img src=<?php echo get_template_directory_uri()."/assets/img/ejercicios_espirituales.jpg"?> alt="" width="100%">
     <div class="retreats-filter"></div>
     <div class="mc-container retreats-text">
       <h3>
