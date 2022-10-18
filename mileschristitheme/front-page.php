@@ -74,13 +74,6 @@
     <h2>Próximos eventos</h2>
     <div class="next-events">
       <div class="event">
-        <img src=<?php echo get_template_directory_uri()."/assets/img/parresia.jpg"?> alt="parresia">
-        <a href="https://forms.gle/Btxi5GtJ3mdZAtCV6" target="_blank" referrerpolicy="no-referrer">
-          <button>Inscribirse</button>
-        </a>
-      </div>
-      <br>
-      <div class="event">
         <img src=<?php echo get_template_directory_uri()."/assets/img/diplomado-historia2.jpg"?> alt="diplomado de historia">
         <a href="https://wa.me/3310770991?text=" target="_blank" referrerpolicy="no-referrer">
           <button>Pedir informes</button>

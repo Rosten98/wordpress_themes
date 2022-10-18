@@ -977,6 +977,10 @@ footer .inner-footer a:hover {
     margin-top: 20px;
   }
 
+  .parresia img {
+    max-width: 400px;
+  }
+
   .parresia button {
     border: none;
     border-radius: 3px;
