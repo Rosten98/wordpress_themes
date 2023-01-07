@@ -74,7 +74,7 @@
     <h2>Próximos eventos</h2>
     <div class="next-events">
       <div class="event">
-        <img src=<?php echo get_template_directory_uri()."/assets/img/ejercicios-espirituales-2023.jpeg"?> alt="diplomado de historia">
+        <img src=<?php echo get_template_directory_uri()."/assets/img/proximo_evento.jpeg"?> alt="diplomado de historia">
         <a href="https://wa.me/3316695911?text=" target="_blank" referrerpolicy="no-referrer">
           <button>Pedir informes</button>
         </a>
