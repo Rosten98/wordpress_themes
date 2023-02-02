@@ -74,12 +74,19 @@
     <h2>Próximos eventos</h2>
     <div class="next-events">
       <div class="event">
-        <img src=<?php echo get_template_directory_uri()."/assets/img/proximo_evento.jpeg"?> alt="diplomado de historia">
-        <a href="https://wa.me/3316695911?text=" target="_blank" referrerpolicy="no-referrer">
+        <img src=<?php echo get_template_directory_uri()."/assets/img/camino-a-santiago-2023.jpeg"?> alt="Viaje camino a Santiago">
+        <a href="https://wa.me/3324919862?text=" target="_blank" referrerpolicy="no-referrer">
           <button>Pedir informes</button>
         </a>
       </div>
-    </div>
+      <br>
+      <div class="event">
+        <img src=<?php echo get_template_directory_uri()."/assets/img/tierra-santa-2023.jpeg"?> alt="Viaje a Tierra Santa">
+        <a href="https://wa.me/3324919862?text=" target="_blank" referrerpolicy="no-referrer">
+          <button>Pedir informes</button>
+        </a>
+        </div>
+      </div>
   </section>
   <!-- Next Retreats -->
   <section class="retreats" id="retreats">
