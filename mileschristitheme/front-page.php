@@ -72,6 +72,13 @@
   <!-- Parresia -->
   <section class="mc-container parresia">
     <h2>Próximos eventos</h2>
+    <div class="event">
+      <img src=<?php echo get_template_directory_uri()."/assets/img/jorada-familias-2023.jpeg"?> alt="Viaje camino a Santiago">
+      <a href="https://wa.me/3338564744?text=" target="_blank" referrerpolicy="no-referrer">
+        <button>Pedir informes</button>
+      </a>
+    </div>
+    <br>
     <div class="next-events">
       <div class="event">
         <img src=<?php echo get_template_directory_uri()."/assets/img/camino-a-santiago-2023.jpeg"?> alt="Viaje camino a Santiago">
