@@ -73,10 +73,10 @@
   <section class="mc-container parresia">
     <h2>Próximos eventos</h2>
     <div class="event">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/diplomado-historia.jpeg"?> alt="Viaje camino a Santiago">
-      <a href="https://forms.gle/vf8qS8gs2YjDgpYFA" target="_blank" referrerpolicy="no-referrer">
+      <img src=<?php echo get_template_directory_uri()."/assets/img/pentecostes_2023.jpeg"?> alt="Pentecostés, vigilia de jóvenes">
+      <!-- <a href="https://forms.gle/vf8qS8gs2YjDgpYFA" target="_blank" referrerpolicy="no-referrer">
         <button>¡Inscribete ya!</button>
-      </a>
+      </a> -->
     </div>
     <br>
     <div class="next-events">
