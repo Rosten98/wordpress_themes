@@ -72,12 +72,12 @@
   <!-- Parresia -->
   <section class="mc-container parresia">
     <h2>Próximos eventos</h2>
-    <div class="event">
+    <!-- <div class="event">
       <img src=<?php echo get_template_directory_uri()."/assets/img/pentecostes_2023.jpeg"?> alt="Pentecostés, vigilia de jóvenes">
-      <!-- <a href="https://forms.gle/vf8qS8gs2YjDgpYFA" target="_blank" referrerpolicy="no-referrer">
+      <a href="https://forms.gle/vf8qS8gs2YjDgpYFA" target="_blank" referrerpolicy="no-referrer">
         <button>¡Inscribete ya!</button>
-      </a> -->
-    </div>
+      </a> 
+    </div> -->
     <br>
     <div class="next-events">
       <div class="event">
