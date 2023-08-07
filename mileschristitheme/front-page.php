@@ -72,28 +72,34 @@
   <!-- Parresia -->
   <section class="mc-container parresia">
     <h2>Próximos eventos</h2>
+    <?php if (get_option('evt') != "none") { ?>
     <div class="event">
-      <img src=<?php echo get_template_directory_uri()."/assets/img/parresia-2023.jpeg"?> alt="Parresía 2023">
-      <a href="https://forms.gle/W9QfCLnNnLDxjT2y8" target="_blank" referrerpolicy="no-referrer">
+      <img src=<?php echo get_option('evt')?> alt=<?php echo get_option('tevt')?>>
+      <a href=<?php echo get_option('levt')?> target="_blank" referrerpolicy="no-referrer">
         <button>¡Inscribete ya!</button>
       </a> 
     </div>
     <br>
+    <?php } ?>
     <div class="next-events">
+      <?php if (get_option('evt1') != "none") { ?>
       <div class="event">
-        <img src=<?php echo get_template_directory_uri()."/assets/img/camino-a-santiago-2023.jpeg"?> alt="Viaje camino a Santiago">
-        <a href="https://wa.me/3324919862?text=" target="_blank" referrerpolicy="no-referrer">
-          <button>Pedir informes</button>
-        </a>
+        <img src=<?php echo get_option('evt1')?> alt=<?php echo get_option('tevt1')?>>
+        <a href=<?php echo get_option('levt1')?> target="_blank" referrerpolicy="no-referrer">
+          <button>¡Inscribete ya!</button>
+        </a> 
       </div>
       <br>
+      <?php } ?>
+      <?php if (get_option('evt2') != "none") { ?>
       <div class="event">
-        <img src=<?php echo get_template_directory_uri()."/assets/img/tierra-santa-2023.jpeg"?> alt="Viaje a Tierra Santa">
-        <a href="https://wa.me/3324919862?text=" target="_blank" referrerpolicy="no-referrer">
-          <button>Pedir informes</button>
-        </a>
-        </div>
+        <img src=<?php echo get_option('evt2')?> alt=<?php echo get_option('tevt2')?>>
+        <a href=<?php echo get_option('levt2')?> target="_blank" referrerpolicy="no-referrer">
+          <button>¡Inscribete ya!</button>
+        </a> 
       </div>
+      <?php } ?>
+    </div>
   </section>
   <!-- Next Retreats -->
   <section class="retreats" id="retreats">
