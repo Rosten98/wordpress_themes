@@ -28,10 +28,15 @@ function assets(){
 add_action( 'wp_enqueue_scripts', 'assets' );
 
 //Custom Theme Settings
-add_action('admin_menu', 'add_gcf_interface');
+add_action('admin_menu', 'add_youtube_admin');
+add_action('admin_menu', 'add_events_admin');
 
-function add_gcf_interface() {
-  add_options_page('Youtube videos', 'Youtube videos', '8', 'functions', 'youtubeVideos');
+function add_youtube_admin() {
+  add_options_page('Youtube videos', 'Youtube videos', '8', 'youtube', 'youtubeVideos');
+}
+
+function add_events_admin(){
+  add_options_page('Próximos Eventos', 'Próximos Eventos', '8', 'events', 'nextEvents');
 }
 
 function youtubeVideos() {
@@ -64,5 +69,48 @@ function youtubeVideos() {
 	</div>
 	
 <?php
+}
+
+function nextEvents(){
+  ?>
+	<div class='wrap'>
+  <h1><strong>Proximos Eventos</strong></h1>
+  <hr>
+	<form method="post" action="options.php">
+	<?php wp_nonce_field('update-options') ?>
+
+	<h3><strong>Evento principal:</strong></h3>
+	<p>Imagen URL: <input type="text" name="evt" size="45" value="<?php echo get_option('evt'); ?>"/></p>
+	<p>Texto Alt: <input type="text" name="tevt" size="45" value="<?php echo get_option('tevt'); ?>"/></p>
+	<p>Link: <input type="text" name="levt" size="45" value="<?php echo get_option('levt'); ?>"/></p>
+	<?php if(get_option('evt') != "none") { ?>
+    <img src="<?php echo get_option('evt'); ?>" alt="" width="300">
+  <?php } ?>
+	<hr>
+  <h3><strong>Evento secundario 1:</strong></h3>
+	<p>Imagen URL: <input type="text" name="evt1" size="45" value="<?php echo get_option('evt1'); ?>"/></p>
+	<p>Texto Alt: <input type="text" name="tevt1" size="45" value="<?php echo get_option('tevt1'); ?>"/></p>
+	<p>Link: <input type="text" name="levt1" size="45" value="<?php echo get_option('levt1'); ?>"/></p>
+	<?php if(get_option('evt1') != "none") { ?>
+    <img src="<?php echo get_option('evt1'); ?>" alt="" width="300">
+  <?php } ?>
+  <hr>
+  <h3><strong>Evento secundario 2:</strong></h3>
+	<p>Imagen URL: <input type="text" name="evt2" size="45" value="<?php echo get_option('evt2'); ?>"/></p>
+	<p>Texto Alt: <input type="text" name="tevt2" size="45" value="<?php echo get_option('tevt2'); ?>"/></p>
+	<p>Link: <input type="text" name="levt2" size="45" value="<?php echo get_option('levt2'); ?>"/></p>
+	<?php if(get_option('evt2') != "none") { ?>
+    <img src="<?php echo get_option('evt2'); ?>" alt="" width="300">
+  <?php } ?>
+  <hr>
+
+	<p><input type="submit" name="Submit" value="Actualizar Eventos"/></p>
+
+	<input type="hidden" name="action" value="update" />
+	<input type="hidden" name="page_options" value="evt,evt1,evt2,levt,levt1,levt2,tevt,tevt1,tevt2" />
+
+	</form>
+	</div>
+	<?php
 }
 ?>
