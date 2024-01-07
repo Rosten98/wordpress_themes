@@ -73,36 +73,41 @@
   <section class="mc-container upcoming-retreats">
     <h2 style="text-align:center">Próximos Ejercicios Espirituales</h2>
     <div class="container">
+      <?php if (get_option('ret') != "none") { ?>
       <div class="mySlides">
-        <div class="numbertext">1 / 5</div>
         <a href="<?php echo get_option('lret')?>">
           <img src="<?php echo get_option('ret')?>" style="width:100%">
         </a>
       </div>
+      <?php }?>
+      <?php if (get_option('ret1') != "none") { ?>
       <div class="mySlides">
-        <div class="numbertext">2 / 5</div>
         <a href="<?php echo get_option('lret1')?>">
           <img src="<?php echo get_option('ret1')?>" style="width:100%">
         </a>
       </div>
+      <?php }?>
+      <?php if (get_option('ret2') != "none") { ?>
       <div class="mySlides">
-        <div class="numbertext">3 / 5</div>
         <a href="<?php echo get_option('lret2')?>">
           <img src="<?php echo get_option('ret2')?>" style="width:100%">
         </a>
       </div>
+      <?php }?>
+      <?php if (get_option('ret3') != "none") { ?>
       <div class="mySlides">
-        <div class="numbertext">4 / 5</div>
         <a href="<?php echo get_option('lret3')?>">
           <img src="<?php echo get_option('ret3')?>" style="width:100%">
         </a>
       </div>
+      <?php }?>
+      <?php if (get_option('ret4') != "none") { ?>
       <div class="mySlides">
-        <div class="numbertext">5 / 5</div>
         <a href="<?php echo get_option('lret4')?>">
           <img src="<?php echo get_option('ret4')?>" style="width:100%">
         </a>
       </div>
+      <?php }?>
       
       <a class="prev" onclick="plusSlides(-1)">❮</a>
       <a class="next" onclick="plusSlides(1)">❯</a>
@@ -112,21 +117,31 @@
       </div>
 
       <div class="row">
+        <?php if (get_option('ret') != "none") { ?>
         <div class="column">
           <img class="demo cursor" src="<?php echo get_option('ret')?>" style="width:100%" onclick="currentSlide(1)" alt="<?php echo get_option('tret')?>">
         </div>
+        <?php }?>
+        <?php if (get_option('ret1') != "none") { ?>
         <div class="column">
           <img class="demo cursor" src="<?php echo get_option('ret1')?>" style="width:100%" onclick="currentSlide(2)" alt="<?php echo get_option('tret1')?>">
         </div>
+        <?php }?>
+        <?php if (get_option('ret2') != "none") { ?>
         <div class="column">
           <img class="demo cursor" src="<?php echo get_option('ret2')?>" style="width:100%" onclick="currentSlide(3)" alt="<?php echo get_option('tret2')?>">
         </div>
+        <?php }?>
+        <?php if (get_option('ret3') != "none") { ?>
         <div class="column">
           <img class="demo cursor" src="<?php echo get_option('ret3')?>" style="width:100%" onclick="currentSlide(4)" alt="<?php echo get_option('tret3')?>">
         </div>
+        <?php }?>
+        <?php if (get_option('ret4') != "none") { ?>
         <div class="column">
           <img class="demo cursor" src="<?php echo get_option('ret4')?>" style="width:100%" onclick="currentSlide(5)" alt="<?php echo get_option('tret4')?>">
         </div>
+        <?php }?>
       </div>
     </div>
   </section>

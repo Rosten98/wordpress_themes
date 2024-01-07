@@ -1097,7 +1097,7 @@ footer .inner-footer a:hover {
 /* Container for image text */
 .caption-container {
   text-align: center;
-  background-color: #222;
+  background-color: rgb(56, 53, 53);
   padding: 2px 16px;
   color: white;
 }
@@ -1107,12 +1107,16 @@ footer .inner-footer a:hover {
   display: table;
   clear: both;
 }
-
+.row {
+  background-color: rgb(56, 53, 53);
+  display: flex;
+  align-items: baseline;
+}
 /* Six columns side by side */
 .column {
   float: left;
   /* width must be set to the number of images / 100 */
-  width: 20%; 
+  width: 20%;
 }
 
 /* Add a transparency effect for thumnbail images */
