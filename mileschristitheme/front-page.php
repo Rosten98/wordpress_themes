@@ -69,6 +69,67 @@
       </div>
     </div>
   </section>
+  <!-- Proximos Ejercicios Espirituales -->
+  <section class="mc-container upcoming-retreats">
+    <h2 style="text-align:center">Próximos Ejercicios Espirituales</h2>
+    <div class="container">
+      <div class="mySlides">
+        <div class="numbertext">1 / 5</div>
+        <a href="<?php echo get_option('lret')?>">
+          <img src="<?php echo get_option('ret')?>" style="width:100%">
+        </a>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">2 / 5</div>
+        <a href="<?php echo get_option('lret1')?>">
+          <img src="<?php echo get_option('ret1')?>" style="width:100%">
+        </a>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">3 / 5</div>
+        <a href="<?php echo get_option('lret2')?>">
+          <img src="<?php echo get_option('ret2')?>" style="width:100%">
+        </a>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">4 / 5</div>
+        <a href="<?php echo get_option('lret3')?>">
+          <img src="<?php echo get_option('ret3')?>" style="width:100%">
+        </a>
+      </div>
+      <div class="mySlides">
+        <div class="numbertext">5 / 5</div>
+        <a href="<?php echo get_option('lret4')?>">
+          <img src="<?php echo get_option('ret4')?>" style="width:100%">
+        </a>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="<?php echo get_option('ret')?>" style="width:100%" onclick="currentSlide(1)" alt="<?php echo get_option('tret')?>">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="<?php echo get_option('ret1')?>" style="width:100%" onclick="currentSlide(2)" alt="<?php echo get_option('tret1')?>">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="<?php echo get_option('ret2')?>" style="width:100%" onclick="currentSlide(3)" alt="<?php echo get_option('tret2')?>">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="<?php echo get_option('ret3')?>" style="width:100%" onclick="currentSlide(4)" alt="<?php echo get_option('tret3')?>">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="<?php echo get_option('ret4')?>" style="width:100%" onclick="currentSlide(5)" alt="<?php echo get_option('tret4')?>">
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Parresia -->
   <section class="mc-container parresia">
     <h2>Próximos eventos</h2>
