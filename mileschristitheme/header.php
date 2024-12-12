@@ -26,9 +26,8 @@
         <ul class="menu menu-ul" id="menu">
           <li><a href=<?php echo home_url()?>>Inicio</a></li>
           <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
-          <li><a href=<?php echo home_url().'/jovenes/'?>>Jóvenes</a></li>
+          <li><a href=<?php echo home_url().'/actividades/'?>>Actividades</a></li>
           <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
-          <li><a href=<?php echo home_url().'/nosotros/'?>>Nosotros</a></li>
         </ul>
         <ul><li><a href="<?php echo home_url().'/donaciones/'?>"><button class="donate">Donar ahora</button></a></li></ul>
       </div>
@@ -36,9 +35,8 @@
         <ul class="menu-desktop">
           <li><a href=<?php echo home_url()?>>Inicio</a></li>
           <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
-          <li><a href=<?php echo home_url().'/jovenes/'?>>Jóvenes</a></li>
+          <li><a href=<?php echo home_url().'/actividades/'?>>Actividades</a></li>
           <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
-          <li><a href=<?php echo home_url().'/nosotros/'?>>Nosotros</a></li>
         </ul>
         <ul><li><a href="<?php echo home_url().'/donaciones/'?>"><button class="donate">Donar ahora</button></a></li></ul>
       </div>

@@ -22,15 +22,17 @@
       <div class="menu-mc-container">
         <span class="iconify cross" data-inline="false" data-icon="akar-icons:cross" id="menu-close" onclick="closeNav()"></span>
         <ul class="menu" id="menu">
-          <li><a href="#about" onclick="closeNav()">Nosotros</a></li>
-          <li><a href="#retreats" onclick="closeNav()">Ejercicios Espirituales</a></li>
-          <li><a href="#resources" onclick="closeNav()">Recursos</a></li>
+          <li><a href=<?php echo home_url()?>>Inicio</a></li>
+          <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
+          <li><a href=<?php echo home_url().'/actividades/'?>>Actividades</a></li>
+          <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
           <li><a href=<?php echo home_url().'/donaciones'?> onclick="closeNav()"><button>Donar ahora</button></a></li>
         </ul>
         <ul class="menu-desktop">
-          <li><a href="#about">Nosotros</a></li>
-          <li><a href="#retreats">Ejercicios Espirituales</a></li>
-          <li><a href="#resources">Recursos</a></li>
+          <li><a href=<?php echo home_url()?>>Inicio</a></li>
+          <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
+          <li><a href=<?php echo home_url().'/actividades/'?>>Actividades</a></li>
+          <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
           <li><a href=<?php echo home_url().'/donaciones'?>><button>Donar ahora</button></a></li>
         </ul>
       </div>
