@@ -110,6 +110,14 @@
         </a>
       </div>
       <?php }?>
+
+      <?php if (get_option('ret5') != "none") { ?>
+      <div class="mySlides">
+        <a href="<?php echo get_option('lret5')?>">
+          <img src="<?php echo get_option('ret5')?>" style="width:100%">
+        </a>
+      </div>
+      <?php }?>
       
       <a class="prev" onclick="plusSlides(-1)">❮</a>
       <a class="next" onclick="plusSlides(1)">❯</a>
@@ -142,6 +150,11 @@
         <?php if (get_option('ret4') != "none") { ?>
         <div class="column">
           <img class="demo cursor" src="<?php echo get_option('ret4')?>" style="width:100%" onclick="currentSlide(5)" alt="<?php echo get_option('tret4')?>">
+        </div>
+        <?php }?>
+        <?php if (get_option('ret5') != "none") { ?>
+        <div class="column">
+          <img class="demo cursor" src="<?php echo get_option('ret5')?>" style="width:100%" onclick="currentSlide(6)" alt="<?php echo get_option('tret5')?>">
         </div>
         <?php }?>
       </div>

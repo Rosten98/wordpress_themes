@@ -172,6 +172,14 @@ function nextRetreats(){
   <?php } ?>
 	<hr>
 
+  <h3><strong>EE 6:</strong></h3>
+	<p>Imagen URL: <input type="text" name="ret5" size="45" value="<?php echo get_option('ret5'); ?>"/></p>
+	<p>Texto Alt: <input type="text" name="tret5" size="45" value="<?php echo get_option('tret5'); ?>"/></p>
+	<p>Link: <input type="text" name="lret5" size="45" value="<?php echo get_option('lret5'); ?>"/></p>
+	<?php if(get_option('ret5') != "none") { ?>
+    <img src="<?php echo get_option('ret5'); ?>" alt="" width="300">
+  <?php } ?>
+	<hr>
 
 	<p><input type="submit" name="Submit" value="Actualizar Eventos"/></p>
 
