@@ -58,7 +58,7 @@
       </p>
       <ul class="events">
         <li class="bg-orange">1. Dirección espiritual</li>
-        <li class="bg-brown">2. Retiros Espirituales</li>
+        <li class="bg-brown"><a href="<?php echo home_url('ejercicios-espirituales')?>">2. Ejercicios Espirituales</a></li>
         <li class="bg-darkblue">3. Formación Católica</li>
       </ul>
       <div class="videos videos-phone">
