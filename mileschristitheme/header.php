@@ -25,6 +25,7 @@
       <div class="menu" id="menu">
         <ul class="menu menu-ul" id="menu">
           <li><a href=<?php echo home_url()?>>Inicio</a></li>
+          <li><a href=<?php echo home_url().'/informacion-de-prensa-2025/'?>>Comunicado</a></li>
           <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
           <li><a href=<?php echo home_url().'/actividades/'?>>Actividades</a></li>
           <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
@@ -34,6 +35,7 @@
       <div class="menu-desktop">
         <ul class="menu-desktop">
           <li><a href=<?php echo home_url()?>>Inicio</a></li>
+          <li><a href=<?php echo home_url().'/informacion-de-prensa-2025/'?>>Comunicado</a></li>
           <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
           <li><a href=<?php echo home_url().'/actividades/'?>>Actividades</a></li>
           <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
