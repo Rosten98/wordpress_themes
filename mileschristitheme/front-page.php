@@ -31,6 +31,7 @@
         </ul>
         <ul class="menu-desktop">
           <li><a href=<?php echo home_url()?>>Inicio</a></li>
+          <li><a href=<?php echo home_url().'/informacion-de-prensa-2025/'?>>Comunicado</a></li>
           <li><a href=<?php echo home_url().'/ejercicios-espirituales/'?>>Ejercicios Espirituales</a></li>
           <li><a href=<?php echo home_url().'/actividades/'?>>Actividades</a></li>
           <li><a href=<?php echo home_url().'/blog/'?>>Blog</a></li>
